@@ -1,9 +1,12 @@
 {
   "files": {
     "main.css": "/Chopping/static/css/main.51a525c3.css",
-    "main.js": "/Chopping/static/js/main.77b26473.js",
+    "main.js": "/Chopping/static/js/main.1a57093d.js",
     "static/media/landingpage.png": "/Chopping/static/media/landingpage.8aa4276975670fbfca1d.png",
     "static/media/services.png": "/Chopping/static/media/services.f16652b488081752a141.png",
+    "static/media/today1.png": "/Chopping/static/media/today1.c8c31fdcd2d3e1416e5b.png",
+    "static/media/today3.png": "/Chopping/static/media/today3.c0aa3287beae7daaa104.png",
+    "static/media/today2.png": "/Chopping/static/media/today2.4bfb1771efb0540fabfe.png",
     "static/media/iPhone12pro.png": "/Chopping/static/media/iPhone12pro.a1df798658ea2c45d101.png",
     "static/media/Buka.png": "/Chopping/static/media/Buka.943c4138a6d8f3b6f928.png",
     "static/media/fav3.png": "/Chopping/static/media/fav3.138419f2121237e425f4.png",
@@ -11,10 +14,10 @@
     "static/media/fav1.png": "/Chopping/static/media/fav1.c5c49fca6b6081461f65.png",
     "index.html": "/Chopping/index.html",
     "main.51a525c3.css.map": "/Chopping/static/css/main.51a525c3.css.map",
-    "main.77b26473.js.map": "/Chopping/static/js/main.77b26473.js.map"
+    "main.1a57093d.js.map": "/Chopping/static/js/main.1a57093d.js.map"
   },
   "entrypoints": [
     "static/css/main.51a525c3.css",
-    "static/js/main.77b26473.js"
+    "static/js/main.1a57093d.js"
   ]
 }
