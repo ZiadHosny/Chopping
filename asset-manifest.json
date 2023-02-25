@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ZiadHosny/Chopping/static/css/main.4e6342a0.css",
+    "main.js": "/ZiadHosny/Chopping/static/js/main.078d78fa.js",
+    "static/media/landingpage.png": "/ZiadHosny/Chopping/static/media/landingpage.8aa4276975670fbfca1d.png",
+    "static/media/services.png": "/ZiadHosny/Chopping/static/media/services.f16652b488081752a141.png",
+    "static/media/iPhone12pro.png": "/ZiadHosny/Chopping/static/media/iPhone12pro.a1df798658ea2c45d101.png",
+    "index.html": "/ZiadHosny/Chopping/index.html",
+    "main.4e6342a0.css.map": "/ZiadHosny/Chopping/static/css/main.4e6342a0.css.map",
+    "main.078d78fa.js.map": "/ZiadHosny/Chopping/static/js/main.078d78fa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4e6342a0.css",
+    "static/js/main.078d78fa.js"
+  ]
+}
