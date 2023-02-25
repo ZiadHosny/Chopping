@@ -6,6 +6,7 @@ import cart from '../images/cart.png';
 import time from '../images/time.png';
 import icon from '../images/icon.png';
 import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
 
 const HomerHeader = () => {
     return (
@@ -45,6 +46,18 @@ const HomerHeader = () => {
                 <Nav.Link className='link-text' to={'/'}>Settings</Nav.Link>
                 <Nav.Link className='link-text' to={'/'}>Order History</Nav.Link>
             </Nav>
+            <div style={{
+                marginTop: 150,
+                display: 'flex',
+                flexDirection: 'column',
+                alignItems: 'center',
+                justifyContent: 'center'
+            }}>
+                <div className='title' style={{ fontSize: 70, lineHeight: '20px' }}>Choppings</div>
+                <div className='title' style={{ fontSize: 50, color: 'white' }}>Chop “buka” in style!</div>
+                <Link style={{ background: '#F31D1D', padding: '10px 120px', borderRadius: 10, color: 'white', fontSize: 20, fontWeight: 600 }}>Find a buka near me</Link>
+            </div>
+
 
         </div>
     )

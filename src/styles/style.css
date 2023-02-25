@@ -195,7 +195,6 @@ label>input[type="checkbox"]:checked+*::before {
 .home-header {
     background-image: url('../images/landingpage.png');
     background-size: cover;
-    background-size: cover;
     background-repeat: no-repeat;
     background-position-y: center;
     border: 1px none;
