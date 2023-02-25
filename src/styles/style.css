@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:600italic,400,700,500,400italic,600,500italic,800|Open+Sans:400,700,600,800|Inter:400,500|Roboto:400,300');
+@import url('./bootstrap.min.css');
+
+.title {
+    font-family: Raleway;
+    font-size: 96px;
+    font-weight: 600;
+    line-height: 113px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFE604;
+
+}
+
+h2 {
+    font-family: Raleway;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+
+}
+
+p {
+    font-family: Raleway;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    margin: 24px 0px;
+    gap: 50px;
+}
+
+.loginBtn {
+    background: #FF0000;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    color: #FFFFFF;
+}
+
+.loginBtn:hover {
+    background: darkred;
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+
+.contact-btn {
+    font-weight: 900;
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 10px;
+    border: 3px solid white;
+    color: white;
+    background-color: transparent;
+}
+
+
+.contact-btn:hover {
+    text-decoration: none;
+    border-color: red;
+    background-color: red;
+    color: white;
+}
+
+
+.welcome {
+    color: #CA2C2C;
+    font-family: Raleway;
+    font-size: 27px;
+    font-weight: 600;
+    line-height: 56px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+
+.input,
+.input:focus {
+    box-shadow: none !important;
+    border: 2px solid #FFE604;
+    border-radius: 5px;
+}
+
+label>input[type="checkbox"] {
+    display: none;
+}
+
+label>input[type="checkbox"]+*::before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 1rem;
+    height: 1.1rem;
+    margin-right: 4px;
+    border-radius: 10%;
+    border-style: solid;
+    border-width: 0.1rem;
+    border-color: #FFE604;
+}
+
+label>input[type="checkbox"]:checked+*::before {
+    color: white;
+    text-align: center;
+    background: #FFE604;
+    border-color: #FFE604;
+}
+
+.card {
+    background: #FFECC8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 8px;
+    width: 300px;
+    height: 270px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.card .title {
+    font-family: Raleway;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: black;
+}
+
+.card .desc {
+    font-family: Raleway;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+
+
+.screen a {
+    display: contents;
+    text-decoration: none;
+}
+
+.container-center-horizontal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    pointer-events: none;
+    width: 100;
+}
+
+.container-center-horizontal>* {
+    flex-shrink: 0;
+    pointer-events: auto;
+}
+
+.landing-page {
+    background-image: url('../images/landingpage.png');
+    background-position: 50 50;
+    background-size: cover;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.services {
+    background-image: url('../images/services.png');
+    background-position: 50 50;
+    background-size: contain;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+}
+
+.home-header {
+    background-image: url('../images/landingpage.png');
+    background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    border: 1px none;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    width: 100%;
+    height: 80vh;
+}
+
+.link-text-home {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #F31D1D;
+    background-color: white;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+.link-text {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: white;
+}
+
+.footer {
+    height: 300px;
+    background: #CA2C2C;
+    backdrop-filter: blur(99.5px);
+}
