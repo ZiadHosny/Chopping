@@ -1,4 +1,10 @@
 import React from 'react'
+import wLogo from '../images/whiteLogo.png';
+import socialF from '../images/social-f.png';
+import socialI from '../images/social-i.png';
+import { Container, Nav, Navbar, } from 'react-bootstrap';
+import { LinkContainer } from 'react-router-bootstrap';
+import { Link } from 'react-router-dom';
 
 const HomeFooter = () => {
     return (

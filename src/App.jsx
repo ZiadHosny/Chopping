@@ -12,7 +12,7 @@ import SignUp from './pages/SignUp';
 const App = () => {
   return (
     <>
-      <Routes>
+      <Routes >
         <Route element={<LandingPage />} path='/'>
         </Route>
         <Route element={<LogInPage />} path='/login'>
